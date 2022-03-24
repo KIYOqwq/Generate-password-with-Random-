@@ -1,9 +1,9 @@
 import random
 
-random.seed(0x1010)
+random.seed(0x1010) #设置随机种子
 s="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*"
-ls = []
-Firstzifu = ""
+ls = []#存密码的列表
+Firstzifu = ""#存第一个字符
 while len(ls)<20:
     pwd = ""
     for i in range(10):
